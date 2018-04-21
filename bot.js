@@ -1,6 +1,5 @@
 const Telegraf = require('telegraf')
 const http = require('http');
-const config = require('./config'); // Configuration file that holds telegraf_token API key.
 require('dotenv').config();
 const bot = new Telegraf(process.env.Token);
 var rp = require('request-promise'); 
